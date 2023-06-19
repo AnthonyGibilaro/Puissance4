@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/volcano.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#puissance_4 table {
+    border: 3px rgb(0, 0, 0) outset;
+    background-image: url(../img/lave.jpg);
+    border: 5px #c0c0c0 inset;
+    margin: 0 auto;
+}
+
+#puissance_4 td {
+    width: 2cm;
+    height: 2cm;
+    margin: 0px;
+    padding: 0px;
+    border: 2px #000000 inset;
+    border-radius: 2cm;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+}
+
+.joueur1 {
+    background-color: var(--couleur-joueur1) !important;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.joueur2 {
+    background-color: var(--couleur-joueur2) !important;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.scoreJoueur1 {
+    color: var(--couleur-joueur1) !important;
+}
+
+.scoreJoueur2 {
+    color: var(--couleur-joueur2) !important;
+}
+
+.tour {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.restart,
+.undo {
+    display: block;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #b3200c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restart:hover,
+.undo:hover {
+    background-color: #e9351d;
+}
+
+.textScore {
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.formulaire {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #242b3d82;
+    border: #b3200c solid 2px;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 30px;
+    box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.divForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.divForm2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: block;
+}
+
+input[type="text"] {
+    margin-bottom: 10px;
+    /* padding: 5px; */
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+input[type="color"] {
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+:root {
+    --couleur-joueur1: red;
+    --couleur-joueur2: yellow;
+}
+
+input[type="number"] {
+    margin-bottom: 10px;
+    padding: 2px;
+    width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+
+}
+
+button[type="submit"] {
+    background-color: #b3200c;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e9351d;
+}
+
+.victory {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 5px solid white !important;
+    /* content: "Victoire" !important; */
+}
