@@ -27,6 +27,6 @@ Pour démarrer le projet, ouvrez-le dans Visual Studio Code et utilisez l'option
 
 👤 **Anthony GIBILARO**
 
-* Site: [Portfolio ](https://www.a-gibilaro.com/)
+* Site: [Portfolio ](https://www.agibilaro.com/)
 * GitHub: [@Github-GIBILARO-Anthony](https://github.com/Github-GIBILARO-Anthony)
 * LinkedIn: [@Anthony Gibilaro](https://www.linkedin.com/in/anthony-gibilaro/)
